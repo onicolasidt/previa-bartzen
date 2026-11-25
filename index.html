@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bartzen Odontologia | Dentista no Centro Histórico, Porto Alegre</title>
+<meta name="description" content="Atendimento odontológico no Centro Histórico de Porto Alegre. Nota 5,0 em 167 avaliações no Google. R. dos Andradas, 1664, sala 201. Ligue (51) 3414-1211.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://api.fontshare.com">
+<link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=boska@400,500,600,700&f[]=switzer@400,500&display=swap">
+<style>
+:root{
+  --ink:#10100E;
+  --deep:#16211B;
+  --cream:#F3EFE7;
+  --amber:#E8A33D;
+  --paper:#FFFFFF;
+  --muted:#6E6A63;
+  --soft:#F4F1EC;
+  --foot:#0C0F0D;
+  --display:"Boska",Georgia,"Times New Roman",serif;
+  --text:"Switzer",system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+  --pad:clamp(24px,5vw,64px);
+  --max:1280px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-padding-top:16px}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--text);font-weight:400;font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+@media (min-width:900px){body{font-size:18px}}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+p{margin:0}
+h1,h2,h3{font-family:var(--display);margin:0;letter-spacing:-0.015em}
+:focus-visible{outline:3px solid var(--amber);outline-offset:3px}
+
+.wrap{max-width:var(--max);margin:0 auto;padding-inline:var(--pad)}
+.sec{padding-block:clamp(64px,9vw,120px)}
+.photo{filter:saturate(.92) contrast(1.04)}
+
+/* botões */
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:12px 32px;border:1px solid currentColor;border-radius:0;background:transparent;color:inherit;font-family:var(--text);font-weight:500;font-size:17px;line-height:1.2;text-decoration:none;cursor:pointer}
+.btn-amber{background:var(--amber);border-color:var(--amber);color:var(--ink)}
+.btn-amber:hover{background:var(--cream);border-color:var(--cream)}
+.btn-white{border-color:rgba(255,255,255,.9);color:#fff}
+.btn-white:hover{background:#fff;color:var(--ink)}
+.btn-dark{background:var(--ink);border-color:var(--ink);color:#fff}
+.btn-dark:hover{background:var(--deep)}
+.btn-line{border-color:var(--ink);color:var(--ink)}
+.btn-line:hover{background:var(--ink);color:#fff}
+.btn-sm{min-height:44px;padding:8px 24px;font-size:16px}
+.actions{display:flex;flex-wrap:wrap;gap:16px}
+
+/* header sobre a imagem */
+.site-header{position:absolute;top:0;left:0;right:0;z-index:10;color:#fff}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:88px}
+.brand{font-family:var(--display);font-weight:600;font-size:22px;letter-spacing:-0.01em;text-decoration:none;white-space:nowrap}
+.nav{display:none}
+.nav a{text-decoration:none;font-weight:500;font-size:15px;padding:8px 0;border-bottom:1px solid transparent}
+.nav a:hover{border-bottom-color:var(--amber)}
+@media (min-width:900px){.nav{display:flex;gap:48px}}
+
+/* hero */
+.hero{position:relative;color:#fff;min-height:clamp(620px,82vh,820px);display:flex;flex-direction:column;background:var(--deep);overflow:hidden}
+.hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 40%;border-radius:0}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(105deg,rgba(10,14,12,.82) 0%,rgba(10,14,12,.55) 45%,rgba(10,14,12,.18) 100%)}
+.hero>*{position:relative;z-index:1}
+.hero>img{position:absolute;z-index:0}
+.hero::after{z-index:1}
+.hero-main{flex:1;display:flex;flex-direction:column;justify-content:flex-end;padding-top:120px;padding-bottom:48px;position:relative;z-index:2}
+.hero-text{max-width:620px}
+.eyebrow{font-size:11px;font-weight:500;letter-spacing:.18em;color:var(--amber);text-transform:uppercase}
+.hero h1{margin-top:24px;font-weight:600;font-size:clamp(44px,5.6vw,84px);line-height:1.02;color:#fff}
+.hero .sub{margin-top:24px;max-width:46ch;font-size:clamp(18px,1.6vw,20px);line-height:1.55;color:rgba(255,255,255,.9)}
+.hero .actions{margin-top:32px}
+@media (min-width:900px){.hero-main{padding-bottom:96px}}
+.proofs{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.25)}
+.proofs-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.proof{padding-block:24px}
+.proof .n{display:block;font-family:var(--display);font-weight:600;font-size:clamp(28px,4vw,48px);line-height:1;color:#fff;letter-spacing:-0.02em}
+.proof .l{display:block;margin-top:8px;font-size:13px;color:rgba(255,255,255,.8)}
+
+/* claro: pacientes */
+.two{display:grid;gap:48px}
+.two h2{font-weight:600;font-size:clamp(34px,4.4vw,56px);line-height:1.08}
+.items{margin:0;padding:0;list-style:none;display:grid;gap:32px}
+.items li{border-top:1px solid var(--ink);padding-top:24px}
+.items p{font-size:clamp(18px,1.8vw,21px);line-height:1.6}
+.origin{display:block;margin-top:16px;font-size:13px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+@media (min-width:900px){
+  .two{grid-template-columns:5fr 7fr;gap:64px}
+}
+
+/* faixa escura */
+.dark{background:var(--deep);color:var(--cream)}
+.numbers{display:grid;gap:48px;align-items:center}
+.stats{display:flex;flex-wrap:wrap;gap:24px clamp(32px,5vw,64px);align-items:flex-end}
+.stat .n{display:block;font-family:var(--display);font-weight:700;font-size:clamp(120px,18vw,260px);line-height:.88;letter-spacing:-0.03em;color:var(--amber)}
+.stat .l{display:block;margin-top:16px;font-size:15px;color:#fff}
+.sobre h2{font-weight:600;font-size:clamp(28px,3vw,36px);color:var(--cream);margin-bottom:24px}
+.sobre p+p{margin-top:16px}
+@media (min-width:1000px){
+  .numbers{grid-template-columns:7fr 5fr;gap:64px}
+}
+
+/* mídia de apoio */
+.media{display:grid}
+.media-img{position:relative;min-height:420px;background:var(--soft)}
+.media-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 40%;border-radius:0}
+.media-text{padding:64px var(--pad);display:flex;flex-direction:column;justify-content:center;gap:24px;background:var(--paper)}
+.media-text h2{font-weight:600;font-size:clamp(32px,3.4vw,40px);line-height:1.1}
+.media-text p{font-family:var(--display);font-weight:500;font-size:clamp(26px,3vw,40px);line-height:1.15;letter-spacing:-0.015em;max-width:14em}
+@media (min-width:900px){
+  .media{grid-template-columns:55fr 45fr;min-height:640px}
+  .media-text{padding:96px clamp(32px,6vw,96px)}
+}
+
+/* avaliações */
+.rev h2{font-weight:600;font-size:clamp(34px,4.4vw,56px);line-height:1.08}
+.cards{display:grid;gap:24px;margin-top:48px}
+.card{margin:0;padding:32px;background:var(--soft);display:flex;flex-direction:column;gap:16px;border-radius:0}
+.qmark{font-family:var(--display);font-weight:700;font-size:72px;line-height:.6;color:var(--amber);height:32px}
+.card blockquote{margin:0;font-family:var(--display);font-style:italic;font-weight:500;font-size:22px;line-height:1.4;flex:1}
+.card figcaption{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;font-size:14px;font-weight:500;padding-top:16px;border-top:1px solid rgba(16,16,14,.15)}
+.stars{color:var(--amber);letter-spacing:.1em;font-size:16px}
+.card .date{color:var(--muted);font-weight:400}
+.rev-foot{margin-top:48px;display:flex;flex-wrap:wrap;gap:16px 32px;align-items:center;justify-content:space-between}
+.rev-foot p{color:var(--muted);font-size:15px}
+.rev-foot a{font-weight:500;text-underline-offset:4px;text-decoration-thickness:2px;text-decoration-color:var(--amber)}
+@media (min-width:900px){
+  .cards{grid-template-columns:repeat(3,1fr)}
+}
+
+/* localização */
+.loc{position:relative;background:var(--soft)}
+.map{height:clamp(380px,55vh,560px);width:100%;position:relative}
+.map iframe{display:block;width:100%;height:100%;border:0;filter:grayscale(1) contrast(1.05)}
+.loc-card{background:#fff;padding:32px;display:flex;flex-direction:column;gap:16px}
+.loc-card h2{font-weight:600;font-size:clamp(28px,3vw,36px);line-height:1.1}
+.loc-card .addr{font-size:17px;line-height:1.5}
+.loc-card .hours{font-size:15px;color:var(--muted)}
+.loc-card .actions{margin-top:8px}
+@media (min-width:900px){
+  .loc-card{position:absolute;z-index:2;left:max(var(--pad),calc((100vw - var(--max))/2 + var(--pad)));top:50%;transform:translateY(-50%);width:420px;padding:40px}
+}
+
+/* CTA final */
+.cta{background:var(--deep);color:var(--cream);text-align:center}
+.cta h2{font-weight:600;font-size:clamp(44px,6.5vw,96px);line-height:1.02;color:var(--cream)}
+.cta .tel{display:inline-block;margin-top:32px;font-family:var(--display);font-weight:600;font-size:clamp(40px,5vw,56px);line-height:1.1;color:var(--amber);text-decoration:none;letter-spacing:-0.01em}
+.cta .tel:hover{text-decoration:underline;text-underline-offset:8px;text-decoration-thickness:2px}
+.cta .line{margin:24px auto 0;max-width:36em;font-size:clamp(17px,1.6vw,19px);color:rgba(243,239,231,.85)}
+.cta .actions{margin-top:48px;justify-content:center}
+
+/* footer */
+.site-footer{background:var(--foot);color:var(--cream);padding-block:64px 48px}
+.foot{border-top:1px solid rgba(243,239,231,.2);padding-top:48px;display:grid;gap:16px}
+.foot .name{font-family:var(--display);font-weight:600;font-size:28px}
+.foot p{font-size:15px;color:rgba(243,239,231,.8)}
+.foot a{color:var(--cream);text-underline-offset:4px}
+.foot .sep{margin-inline:8px;opacity:.5}
+
+@media (max-width:899px){
+  .hero-main{padding-top:112px}
+  .proof .n{font-size:clamp(24px,7vw,32px)}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{transition:none!important;animation:none!important;scroll-behavior:auto!important}
+}
+</style>
+</head>
+<body id="topo">
+
+<header class="site-header">
+  <div class="wrap">
+    <div class="bar">
+      <a class="brand" href="#topo">Bartzen Odontologia</a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#atendimento">O atendimento</a>
+        <a href="#avaliacoes">Avaliações</a>
+        <a href="#onde">Onde fica</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a class="btn btn-amber btn-sm" href="tel:+555134141211">Ligar</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <img class="photo" src="img/foto-1.jpg" width="1024" height="716" alt="Recepção da Bartzen Odontologia, com balcão branco curvo, cadeiras de espera e piso de parquet">
+  <div class="wrap hero-main">
+    <div class="hero-text">
+      <p class="eyebrow">Centro Histórico · Porto Alegre</p>
+      <h1>Dentista no Centro Histórico de Porto Alegre</h1>
+      <p class="sub">A Bartzen Odontologia atende na R. dos Andradas, 1664, sala 201. São 167 avaliações no Google, com nota 5,0.</p>
+      <div class="actions">
+        <a class="btn btn-amber" href="tel:+555134141211">Ligar (51) 3414-1211</a>
+        <a class="btn btn-white" href="https://www.google.com/maps/place/?q=place_id:ChIJt5yafcR5GZUR-NU7Lc7uA54" target="_blank" rel="noopener">Ver no Google Maps</a>
+      </div>
+    </div>
+  </div>
+  <div class="proofs">
+    <div class="wrap proofs-grid">
+      <div class="proof"><span class="n">5,0</span><span class="l">nota no Google</span></div>
+      <div class="proof"><span class="n">167</span><span class="l">avaliações</span></div>
+      <div class="proof"><span class="n">08:00–19:00</span><span class="l">segunda a sexta</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="atendimento">
+  <div class="wrap two">
+    <h2>O que os pacientes descrevem</h2>
+    <ul class="items">
+      <li>
+        <p>Uma avaliação conta que o cuidado continua depois da consulta: a profissional manda mensagem para saber como o paciente está.</p>
+        <span class="origin">Venice A., no Google</span>
+      </li>
+      <li>
+        <p>Outra paciente relata acompanhamento da mesma família há 17 anos, com atenção para todos.</p>
+        <span class="origin">Guilherme R., no Google</span>
+      </li>
+      <li>
+        <p>Uma paciente resume o resultado em uma frase: "Muito bom poder sorrir de novo".</p>
+        <span class="origin">Bruna M., no Google</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="dark sec" id="sobre">
+  <div class="wrap numbers">
+    <div class="stats">
+      <div class="stat"><span class="n">5,0</span><span class="l">nota no Google</span></div>
+      <div class="stat"><span class="n">167</span><span class="l">avaliações</span></div>
+    </div>
+    <div class="sobre">
+      <h2>Sobre</h2>
+      <p>A Bartzen Odontologia atende no Centro Histórico de Porto Alegre, na R. dos Andradas, 1664, sala 201. O consultório recebe pacientes de segunda a sábado.</p>
+      <p>São 167 avaliações no Google, com nota 5,0.</p>
+    </div>
+  </div>
+</section>
+
+<section class="media" aria-labelledby="consultorio">
+  <div class="media-img">
+    <img class="photo" src="img/foto-2.jpg" width="682" height="1024" loading="lazy" alt="Corredor claro do consultório, com portas de madeira clara e vidro e piso de porcelanato">
+  </div>
+  <div class="media-text">
+    <h2 id="consultorio">O consultório</h2>
+    <p>O consultório fica na sala 201, na R. dos Andradas</p>
+  </div>
+</section>
+
+<section class="sec rev" id="avaliacoes">
+  <div class="wrap">
+    <h2>O que dizem no Google</h2>
+    <div class="cards">
+      <figure class="card">
+        <span class="qmark" aria-hidden="true">“</span>
+        <blockquote>Ótima profissional, atualizada, preocupada com a situação de cada um, atenciosa e muito cuidadosa com os detalhes do atendimento e do pós atendimento... manda mensagem para saber como o paciente está, seus cuidados vão além do consultório no momento presencial. Super indico!</blockquote>
+        <figcaption><span>Venice A.</span><span class="stars" role="img" aria-label="5 estrelas">★★★★★</span><span class="date">novembro de 2026</span></figcaption>
+      </figure>
+      <figure class="card">
+        <span class="qmark" aria-hidden="true">“</span>
+        <blockquote>Excelente profissional, cuida de mim e da minha família a 17 anos com muito carinho e cuidado. Não trocamos por nada. Grato sempre pelo cuidado e atenção com todos nós</blockquote>
+        <figcaption><span>Guilherme R.</span><span class="stars" role="img" aria-label="5 estrelas">★★★★★</span><span class="date">novembro de 2026</span></figcaption>
+      </figure>
+      <figure class="card">
+        <span class="qmark" aria-hidden="true">“</span>
+        <blockquote>Excelente profissional, trabalho de muita qualidade. Muito bom poder sorrir de novo!</blockquote>
+        <figcaption><span>Bruna M.</span><span class="stars" role="img" aria-label="5 estrelas">★★★★★</span><span class="date">julho de 2026</span></figcaption>
+      </figure>
+    </div>
+    <div class="rev-foot">
+      <p>Avaliações reais do perfil da Bartzen Odontologia no Google. Nomes abreviados, textos integrais.</p>
+      <a href="https://www.google.com/maps/place/?q=place_id:ChIJt5yafcR5GZUR-NU7Lc7uA54" target="_blank" rel="noopener">Ver todas no Google</a>
+    </div>
+  </div>
+</section>
+
+<section class="loc" id="onde" aria-label="Localização">
+  <div class="loc-card">
+    <h2>No Centro Histórico</h2>
+    <p class="addr">R. dos Andradas, 1664, sala 201. Centro Histórico, Porto Alegre, RS. 90020-012.</p>
+    <p class="hours">Segunda a sexta, das 08:00 às 19:00. Sábado, das 09:00 às 13:00.</p>
+    <div class="actions">
+      <a class="btn btn-dark" href="https://www.google.com/maps/dir/?api=1&amp;destination=R.+dos+Andradas,+1664+-+Centro+Hist%C3%B3rico,+Porto+Alegre+-+RS,+90020-012" target="_blank" rel="noopener">Como chegar</a>
+      <a class="btn btn-line" href="https://www.google.com/maps/place/?q=place_id:ChIJt5yafcR5GZUR-NU7Lc7uA54" target="_blank" rel="noopener">Ver no Google Maps</a>
+    </div>
+  </div>
+  <div class="map">
+    <iframe src="https://www.google.com/maps?q=R.+dos+Andradas,+1664,+Porto+Alegre&amp;output=embed" title="Mapa da Bartzen Odontologia na R. dos Andradas, 1664" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+  </div>
+</section>
+
+<section class="cta sec" id="contato">
+  <div class="wrap">
+    <h2>Para marcar, ligue</h2>
+    <a class="tel" href="tel:+555134141211">(51) 3414-1211</a>
+    <p class="line">Atendimento de segunda a sexta, das 08:00 às 19:00, e sábado pela manhã.</p>
+    <div class="actions">
+      <a class="btn btn-amber" href="tel:+555134141211">Ligar agora</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot">
+      <p class="name">Bartzen Odontologia</p>
+      <p>R. dos Andradas, 1664, sala 201 · Centro Histórico, Porto Alegre, RS</p>
+      <p><a href="tel:+555134141211">(51) 3414-1211</a><span class="sep">·</span><a href="https://www.google.com/maps/place/?q=place_id:ChIJt5yafcR5GZUR-NU7Lc7uA54" target="_blank" rel="noopener">Ficha no Google</a><span class="sep">·</span><a href="#topo">Voltar ao topo</a></p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
